@@ -1,58 +1,58 @@
 {
-  "lives": [
+  "生命":[
     {
-      "name": "M3U",
-      "url": "https://github.com/live.m3u"
+      "名称":"M3U",
+      "URL":"https://ghfast.top/https://raw.githubusercontent.com/yuanzl77/IPTV/main/live.m3u"
     },
     {
-      "name": "TXT",
-      "url": "https://github.com/live.txt",
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
+      "名称":"TXT",
+      "URL":"https://github.com/live.txt",
+      "EPG":"https://epg.112114.xyz/?ch={name}&date={date}",
+      "徽标":"https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "UA",
-      "url": "https://github.com/live.txt",
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-      "referer": "https://github.com/"
+      "名称":"UA",
+      "URL":"https://github.com/live.txt",
+      "EPG":"https://epg.112114.xyz/?ch={name}&date={date}",
+      "徽标":"https://epg.112114.xyz/logo/{name}.png",
+      "ua":"Mozilla/5.0(Windows NT10.0；Win64；x64)AppleWebKit/537.36(KHTML，如Gecko)Chrome/108.0.0.0 Safari/537.36",
+      "referer":"https://github.com/"
     },
     {
-      "name": "Custom",
-      "boot": false,
-      "pass": true,
-      "url": "https://github.com/live.txt",
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Shanghai",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "header": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-        "Referer": "https://github.com/"
+      "名称":"自定义",
+      "开机":假的,
+      "通过":正确,
+      "URL":"https://github.com/live.txt",
+      "EPG":"https://epg.112114.xyz/?ch={name}&date={date}&server时区=亚洲/上海",
+      "徽标":"https://epg.112114.xyz/logo/{name}.png",
+      "页眉":{
+        "用户代理":"Mozilla/5.0(Windows NT10.0；Win64；x64)AppleWebKit/537.36(KHTML，如Gecko)Chrome/108.0.0.0 Safari/537.36",
+        "Referer":"https://github.com/"
       },
-      "catchup": {
-        "days": "7",
-        "type": "append",
-        "regex": "/PLTV/",
-        "replace": "/PLTV/,/TVOD/",
-        "source": "?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
+      "追赶":{
+        "天":"7",
+        "类型":"追加",
+        "regex":"/PLTV/",
+        "替换":"/PLTV/，/TVOD/",
+        "来源":"？playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
       }
     },
     {
-      "name": "JSON",
-      "type": 1,
-      "url": "https://github.com/live.json"
+      "名称":"JSON",
+      "类型":1,
+      "URL":"https://github.com/live.json"
     },
     {
-      "name": "Spider-JS",
-      "type": 3,
-      "api": "https://github.com/live.js",
-      "ext": ""
+      "名称":"蜘蛛-JS",
+      "类型":3,
+      "api":"https://github.com/live.js",
+      "外部":“”
     },
     {
-      "name": "Spider-Python",
-      "type": 3,
-      "api": "https://github.com/live.py",
-      "ext": ""
+      "名称":"蜘蛛-蟒蛇",
+      "类型":3,
+      "api":"https://github.com/live.py",
+      "外部":“”
     },
   ]
 }
